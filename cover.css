@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cover{
+    text-align: center;
+    width: 90%;
+    padding: 200px;
+    
+    
+
+}

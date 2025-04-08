@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hotel Booking - Cox's Bazar</title>
+  <link rel="stylesheet" href="order.css">
+</head>
+<body>
+  <header>
+    <input type="text" placeholder="Where to go?" />
+    <div class="search-box">
+      <div>
+        <label>Check-in</label>
+        <input type="date" value="2025-05-09">
+      </div>
+      <div>
+        <label>Check-out</label>
+        <input type="date" value="2025-05-10">
+      </div>
+    </div>
+  </header>
+
+  <div class="container">
+    <aside class="filters">
+      <h3>Filters</h3>
+      <div>
+        <strong>Popular Filters</strong>
+        <label><input type="checkbox"> 3 Star</label>
+        <label><input type="checkbox"> 5 Star</label>
+        <label><input type="checkbox"> Hotel</label>
+        <label><input type="checkbox"> Breakfast</label>
+      </div>
+      <div>
+        <strong>Price Range</strong>
+        <input type="number" placeholder="Min"> - <input type="number" placeholder="Max">
+      </div>
+      <div>
+        <strong>User Rating</strong>
+        <label><input type="checkbox"> 1 - Terrible</label>
+        <label><input type="checkbox"> 5 - Excellent</label>
+      </div>
+    </aside>
+
+    <main class="hotel-list">
+      <div class="hotel-card">
+        <img src="image 6.png" alt="Hotel 1">
+        <div class="hotel-info">
+          <h4>Sea Pearl Beach Resort & Spa</h4>
+          <p>Excellent location • 4.5/5</p>
+          <p class="price">BDT 4,850</p>
+        </div>
+      </div>
+      <div class="hotel-card">
+        <img src="image 7.png" alt="Hotel 2">
+        <div class="hotel-info">
+          <h4>Panshi Beach Resort & Spa</h4>
+          <p>Excellent location • 4.5/5</p>
+          <p class="price">BDT 5,850</p>
+        </div>
+      </div>
+      <div class="hotel-card">
+        <img src="image 9.png" alt="Hotel 3">
+        <div class="hotel-info">
+          <h4>Sundorbon Beach Resort & Spa</h4>
+          <p>Excellent location • 4.5/5</p>
+          <p class="price">BDT 8,850</p>
+        </div>
+      </div>
+      <div class="hotel-card">
+        <img src="image 12.png" alt="Hotel 4">
+        <div class="hotel-info">
+          <h4> Pankouri Beach Resort & Spa</h4>
+          <p>Excellent location • 4.5/5</p>
+          <p class="price">BDT 9,850</p>
+        </div>
+      </div>
+
+      <div class="hotel-card">
+        <img src="image 10.png" alt="Hotel 5">
+        <div class="hotel-info">
+          <h4>Sayeman Beach Resort</h4>
+          <p>Beachfront • 4.3/5</p>
+          <p class="price">BDT 15,040</p>
+        </div>
+      </div>
+
+      <!-- Add more hotel cards as needed -->
+    </main>
+  </div>
+
+  <footer>
+    <div class="nav">
+      <a href="#"><button class="order">Home</button></a>
+      <a href="#"><button class="order">Orders</button></a>
+      <a href="./deals.html"><button class="order">Deals</button></a>
+      <a href="#"><button class="order">Account</button></a>
+    </div>
+  </footer>
+</body>
+</html>

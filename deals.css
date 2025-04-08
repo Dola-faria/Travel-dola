@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #e3f7fd;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .wrapper {
+    max-width: 480px;
+    width: 100%;
+    padding: 1rem;
+  }
+  
+  .search-bar {
+    width: 100%;
+    padding: 0.75rem 1rem;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .booking-card {
+    background-color: white;
+    border-radius: 12px;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .status {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+  
+  .status-badge {
+    background-color: #2e7d32;
+    color: white;
+    padding: 0.3rem 0.6rem;
+    border-radius: 12px;
+    font-size: 0.85rem;
+  }
+  
+  .flight-route {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.75rem;
+  }
+  
+  .airport-code {
+    text-align: center;
+  }
+  
+  .flight-duration {
+    text-align: center;
+    font-size: 0.9rem;
+  }
+  
+  .arrow {
+    font-size: 1.5rem;
+  }
+  
+  .flight-info {
+    font-size: 0.85rem;
+    color: #555;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+  
+  .booking-id {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid #eee;
+    padding-top: 0.5rem;
+    font-size: 0.95rem;
+  }
+  
+  .multi-city-form {
+    background-color: white;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .trip-type {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+  }
+  
+  .trip-type label {
+    font-size: 0.9rem;
+  }
+  
+  .city-selection .city-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .city-selection input[type="text"] {
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 0.95rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    margin-bottom: 0.3rem;
+  }
+  
+  .city-selection small {
+    font-size: 0.75rem;
+    color: #555;
+  }
+  .nav {
+    width: 100%;
+    max-width: 400px;
+    position: fixed;
+    bottom: 0;
+    background: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 10px 0;
+    border-top: 1px solid skyblue;
+    font-weight: bold;
+    color: rgb(0, 26, 255);
+
+  }
+    
